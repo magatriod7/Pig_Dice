@@ -7,9 +7,14 @@ console.log("testing")
 
 function Random() {
 	Random_Dice = Math.floor((Math.random())*8);
-	console.log(Random_Dice);
-	Random_Dice = 0;
+  
+	const resultElement = document.getElementById('score1');
+  
+  	let number = resultElement.innerText;
 
+	number = parseInt(number) + Random_Dice
+
+  	resultElement.innerText = number;
 }
 
 

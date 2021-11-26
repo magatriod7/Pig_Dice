@@ -8,12 +8,12 @@ console.log("testing")
 const userNumber = parseInt(prompt('플레이어 수를 입력하세요.'));
 console.log(typeof(userNumber))
 
-function user() {
-	for(const i=0; i < userNumber; i++) {
-		const user = document.getElementsByClassName('player');
-		console.log(user)
-	}
-}
+// function user() {
+// 	for(const i=0; i < userNumber; i++) {
+// 		const user = document.getElementsByClassName('player');
+// 		console.log(user)
+// 	}
+// }
 
 function Random() {
 	const resultElement1 = document.getElementById('score2');	
